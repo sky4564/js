@@ -14,6 +14,7 @@ let str = 'isTestString'
 let stringArr = [1,2,3,4,5]
 
 
-let test = str.slice(0,2)
+let result = arr.slice(0,2)
 
-console.log(test)
+console.log(result)
+console.log(arr)
