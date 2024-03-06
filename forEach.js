@@ -2,7 +2,7 @@
  * @용도 : arr에서 사용 string 은 안됌
  * @사용 : 리턴없이 인덱스 와 밸류에 대해 함수 실행
  * @반환값 : return 값 이 없음
- * @특이점 : returㅜ 으로 순회가 종료되지않는다
+ * @특이점 : return 으로 순회가 종료되지않는다
  */
 
 
@@ -26,7 +26,7 @@ let str = "isTestString";       //
 
 
 let result2 = arr.forEach((x,i) => {
-    console.log('forEach function')
+    x += 123
 });
 
 

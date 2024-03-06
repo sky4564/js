@@ -20,12 +20,7 @@ let result                      //
 
 
 
-result = arr.filter(( x , i ) => x > 1).join('')
-console.log(typeof(result))
-
-
-
-
+result = arr.filter(( x , i ) => typeof(x) == 'number')
 
 
 ///Result Box///////////////////////////////////////////
@@ -34,4 +29,3 @@ console.log(result)                                  //
 
 
 
-console.log(a,b)

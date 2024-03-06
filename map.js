@@ -21,7 +21,8 @@ let str = "isTestString";       //
 
 
 let result = arr.map((x,i) => {
-    return x = `test i index is ==${i}`
+    if( 0<=i && i <= 2) return x += 1
+    else return x
 });
 
 
