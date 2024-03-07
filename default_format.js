@@ -20,8 +20,7 @@ let result                      //
 
 
 
-
-
+result = str.toUpperCase()
 
 
 
