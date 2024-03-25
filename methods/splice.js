@@ -14,7 +14,7 @@ let str = 'isTestString'
 let stringArr = [1,2,3,4,5]
 
 
-let result = arr.splice(0,2, '교체품')
+let result = arr.splice(0,1)
 
 console.log(result)
 console.log(arr)
