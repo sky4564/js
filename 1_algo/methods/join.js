@@ -13,3 +13,4 @@ let stringArr = ["배열에", "담긴", "요소를", 1, "이렇게 ~", true, fal
  */
 let a = stringArr.join("");
 console.log(a);
+

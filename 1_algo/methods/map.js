@@ -20,9 +20,9 @@ let str = "isTestString";       //
 ////////////////////////////////////////// Result Box///
 
 
-let result = arr.map((x,i) => {
-    if( 0<=i && i <= 2) return x += 1
-    else return x
+let result = arr.map((x, i) => {
+  
+  return 10 * i
 });
 
 

@@ -26,9 +26,9 @@ let result                      //
 
 
 
-result = stArr.reduce((acc,cur,idx,src)=>{    
-    console.log(src[idx])
-    return acc + cur
+result = stArr.reduce((acc,cur,idx,src)=>{
+    console.log(acc)
+    return acc + Number(cur)
 }, 0)
 
 

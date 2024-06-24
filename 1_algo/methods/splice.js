@@ -17,11 +17,12 @@ let str = 'isTestString'
 let stringArr = [1,2,3,4,5]
 
 
-let resultT = arr.slice(2,arr.length-1)
 
 let result = arr.splice(2,arr.length-1)
 
+let resultT = arr.slice(0,arr.length-1)
 
+
+console.log(result)
 
 console.log(resultT)
-console.log(result)
