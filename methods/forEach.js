@@ -4,8 +4,6 @@
  * @반환값 : return 값 이 없음
  * @특이점 : return 으로 순회가 종료되지않는다
  */
-
-
 /////////////////////////////////////////////
 let arr = [1, 1, 1, "1", "1"];  //Value Box//
 let obj = {                     /////////////
@@ -15,26 +13,13 @@ let obj = {                     /////////////
 };                              //
 let str = "isTestString";       //
 //////////////////////////////////
+////////////////////////////////////////// Result Box//
 
 
-////////////////////////////////////////// Result Box///
 
-
-// let result = arr.map((x,i) => {
-//     return x = `test i index is ==${i}`
-// });
-
-
-let result2 = arr.forEach((x,i) => {
-    x += 123
-});
-
+arr.forEach((el)=>console.log(el))
 
 
 
 
 //////////////////////////////////////////////////////
-
-
-console.log(result2);
-console.log(arr);
