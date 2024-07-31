@@ -7,7 +7,7 @@
 
 
 /////////////////////////////////////////////
-let arr = [1, 1, 1, "1", "1"];  //Value Box//
+let arr = 123;  //Value Box//
 let obj = {                     /////////////
   numValue: 123,                //
   test: "is objcet test",       //
