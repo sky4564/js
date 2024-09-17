@@ -11,13 +11,14 @@
 
 /////////////////////////////////////////////
 let arr = [1, 2, 3, 4, 5];  //Value Box//
-let stArr = ['1', '2', '3', '4', "5"];
-let obj = {                     /////////////
-  numValue: 123,                //
-  test: "is objcet test",       //
-  boolean: true,                //
-};                              //
+
+
+let stArr = ['3', '3', '3', '3', "3"];
+
+
 let str = "isTestString";       //
+
+
 let result                      //
 //////////////////////////////////
 
@@ -26,9 +27,9 @@ let result                      //
 
 
 
-result = stArr.reduce((acc,cur,idx,src)=>{
-    console.log(acc)
-    return acc + Number(cur)
+result = stArr.reduce((acc, cur, idx, src, a, b, c) => {
+  console.log(acc, cur, idx, src, a, b, c)
+  return acc + Number(cur)
 }, 0)
 
 
